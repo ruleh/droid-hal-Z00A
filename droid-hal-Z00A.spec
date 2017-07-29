@@ -7,4 +7,8 @@
 %define installable_zip 1
 %define device_target_cpu i486 
 
+%define straggler_files \
+/intel_prop.cfg \
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
